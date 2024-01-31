@@ -15,8 +15,38 @@ img {
   border-radius: 10px;
 }
 
-header { 
+/* Flex containers */
+
+header,
+#canvas,
+#name
+.para {
   display: flex;
+}
+
+/* Common backgrounds */
+
+#canvas,
+#learning-button {
+  background-color: #F4D04E;
+}
+
+/* Common font sizes */
+
+#learning-button,
+.published {
+  font-size: 0.75rem;
+}
+
+/* Common font weights */
+
+#name,
+#learning-button,
+.foundations {
+  font-weight: 800;
+}
+
+header { 
   min-width: 279px;
   height: 200px;
   border: 2px solid black;
@@ -26,10 +56,8 @@ header {
 }
 
 #canvas {
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #F4D04E;
   width: 100%;
   height: 100vh;
 }
@@ -40,41 +68,29 @@ header {
   height: 501px;
   border: 1px solid black;
   padding: 1.5em 1.625em 1.5em 1.375em;
-  /* was padding: 24px 26px 24px 22px; */
   background-color: white;
   border-radius: 20px;
   box-shadow: 8px 8px 0px 0px
 }
 
 #learning-button {
-  background-color: #f4d04e;
   padding: 4px 12px;
   margin: 2em 0 1em 0;
-  /* was margin: 24px 0 12px 0 */
   width: 73px;
   height: 26px;
   border-radius: 4px;
-  font-size: 0.75rem;
-  /* was 12px */
-  font-weight: 800;
   border: none;
 }
 
 .published {
   width: 123px;
   height: 18px;
-  font-size: 0.75rem;
-  /* was 12px */
   margin: 0 0 1em 0;
-  /* was margin: 0 0 12px 0 */
 }
 
 .foundations {
   font-size: 1.25rem;
-  /* was 20px */
-  font-weight: 800;
   margin-bottom: 0.6em;
-  /* was margin-bottom: 12px */
 }
 
 .foundations:hover,
@@ -85,33 +101,26 @@ header {
 }
 
 .para {
-  display: flex;
   min-width: 279px;
   height: 63px;
   font-size: 0.875rem;
-  /* was 14px */
   font-style: normal;
   font-weight: 500;
   line-height: 21px;
   color: #7f7f7f;
   margin-bottom: 1.714em;
-  /* was margin-bottom: 24px */
 }
 
 #avatar {
   width: 32px;
   height: 32px;
   margin-right: 0.75em;
-  /* was margin-right: 12px;*/
 }
 
 #name {
-  display: flex;
   width: 98px;
   height: 21px;
   margin: -1.875em 0px 0 2.75em;
-  /* was margin: -30px 0px 0 44px */
-  font-weight: 800;
 }
 
 #name-container {
@@ -120,7 +129,7 @@ header {
   background-color: #7f7f7f;
 }
 
-/* planning on adding a media query breakpoint at 700px */
+/* Media query */
 
 @media (min-width: 700px) {
   #card-container {
