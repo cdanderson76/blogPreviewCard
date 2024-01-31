@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Figtree', sans-serif;
+}
+
+/* Fits images in containers no matter the size */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+header { 
+  display: flex;
+  min-width: 279px;
+  height: 200px;
+  border: 2px solid black;
+  background-image: url('images/illustration-article.svg');
+  background-size: cover;
+  border-radius: 20px;
+}
+
+#canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F4D04E;
+  width: 100%;
+  height: 100vh;
+}
+
+#card-container {
+  width: 55%;
+  min-width: 327px;
+  height: 501px;
+  border: 1px solid black;
+  padding: 1.5em 1.625em 1.5em 1.375em;
+  /* was padding: 24px 26px 24px 22px; */
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px
+}
+
+#learning-button {
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  margin: 2em 0 1em 0;
+  /* was margin: 24px 0 12px 0 */
+  width: 73px;
+  height: 26px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  /* was 12px */
+  font-weight: 800;
+  border: none;
+}
+
+.published {
+  width: 123px;
+  height: 18px;
+  font-size: 0.75rem;
+  /* was 12px */
+  margin: 0 0 1em 0;
+  /* was margin: 0 0 12px 0 */
+}
+
+.foundations {
+  font-size: 1.25rem;
+  /* was 20px */
+  font-weight: 800;
+  margin-bottom: 0.6em;
+  /* was margin-bottom: 12px */
+}
+
+.foundations:hover,
+.foundations:active {
+  color: #F4D04E;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.para {
+  display: flex;
+  min-width: 279px;
+  height: 63px;
+  font-size: 0.875rem;
+  /* was 14px */
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #7f7f7f;
+  margin-bottom: 1.714em;
+  /* was margin-bottom: 24px */
+}
+
+#avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.75em;
+  /* was margin-right: 12px;*/
+}
+
+#name {
+  display: flex;
+  width: 98px;
+  height: 21px;
+  margin: -1.875em 0px 0 2.75em;
+  /* was margin: -30px 0px 0 44px */
+  font-weight: 800;
+}
+
+#name-container {
+  width: 327px;
+  height: 32px;
+  background-color: #7f7f7f;
+}
+
+/* planning on adding a media query breakpoint at 700px */
+
+@media (min-width: 700px) {
+  #card-container {
+    width: 55%;
+    max-width: 384px;
+    height: 522px;
+  }
+
+  header,
+  .para {
+    width: 336px;
+  }
+
+  .para {
+    height: 72px;
+    font-size: 1rem;
+  }
+}
