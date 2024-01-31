@@ -51,7 +51,7 @@ header {
   height: 200px;
   background-image: url('images/illustration-article.svg');
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 #canvas {
