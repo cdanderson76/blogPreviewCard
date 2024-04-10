@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
-
 * {
   margin: auto;
   padding: 0;
@@ -82,7 +80,7 @@ header {
 }
 
 .published {
-  width: 123px;
+  width: 127px;
   height: 18px;
   margin: 0 0 1em 0;
 }
