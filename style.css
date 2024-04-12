@@ -182,7 +182,7 @@ footer span {
 
 /* Media query */
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   #card-container {
     width: 55%;
     max-width: 384px;
