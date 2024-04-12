@@ -1,138 +1,117 @@
-* {
-  margin: auto;
+*  {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Figtree', sans-serif;
+  background-color: #131313;
 }
 
-/* Fits images in containers no matter the size */
+body {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  background-image: #313131;
+}
+
+.profile-card {
+  flex-direction: column;
+  align-items: center;
+  width: 20.4375em;
+  height: 38.188em;
+  background-color: #202020;
+  border-radius: 0.5em;
+  border: 2px solid #ffffff41;
+}
 
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+  display: block;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-top: 2.6em;
 }
 
-/* Flex containers */
+/* Grouped Background Colors */
 
-header,
-#canvas,
-#name
-.para {
+.name, .location, .about, .btn-container {
+  background-color: #202020;
+}
+
+/* Flex Containers */
+
+body, .profile-card, .btn-container {
   display: flex;
 }
 
-/* Common backgrounds */
+/* Grouped Font Colors */
 
-#canvas,
-#learning-button {
-  background-color: #9044d4;
+a, .about, .attribution {
+  color: white;
 }
-
-/* Common font sizes */
-
-#learning-button,
-.published {
-  font-size: 0.75rem;
-}
-
-/* Common font weights */
-
-#name,
-#learning-button,
-.foundations {
-  font-weight: 800;
-}
-
-header { 
-  min-width: 279px;
-  height: 200px;
-  background-image: url('images/blogimage.png');
-  background-size: cover;
-  border-radius: 10px;
-}
-
-#canvas {
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-}
-
-#card-container {
-  width: 55%;
-  min-width: 327px;
-  height: 501px;
-  border: 1px solid black;
-  padding: 1.5em 1.625em 1.5em 1.375em;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 8px 8px 0px 0px;
-  margin-bottom: -80px;
-}
-
-#learning-button {
-  padding: 4px 12px;
-  margin: 2em 0 1em 0;
-  width: 73px;
-  height: 26px;
-  color: rgba(255, 255, 255, 0.904);
-  letter-spacing: 0.3px;
-  border-radius: 4px;
-  border: none;
-}
-
-.published {
-  width: 127px;
-  height: 18px;
-  margin: 0 0 1em 0;
-}
-
-.foundations {
-  font-size: 1.25rem;
-  margin-bottom: 0.6em;
-}
-
-.foundations:hover,
-.foundations:active {
-  color: #9044d4;
-  cursor: pointer;
-  transition-duration: 0.2s;
-}
-
-.para {
-  min-width: 279px;
-  height: 63px;
-  font-size: 0.875rem;
-  font-style: normal;
+ 
+.name {
+  font-size: 1.6rem;
   font-weight: 500;
-  line-height: 21px;
-  color: #7f7f7f;
-  margin-bottom: 1.714em;
+  color: #ffffffc0;
+  margin-top: 1.1em;
 }
 
-#avatar {
-  width: 32px;
-  height: 32px;
-  margin-right: 0.75em;
+.location {
+  font-size: 0.8125rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #C4F82A;
+  margin-top: 0.75em;
 }
 
-#name {
-  width: 98px;
-  height: 21px;
-  margin: -1.875em 0px 0 2.75em;
+.about {
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top: 1.875em;
 }
 
-#name-container {
-  width: 327px;
-  height: 32px;
-  background-color: #7f7f7f;
+.btn-container {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 17.4375em;
+  height: 18.0625em;
+  margin-top: 1.875em;
 }
 
-footer span {
+a {
+  text-decoration: none;
+}
+
+.buttons {
+  width: 279px;
+  height: 45px;
+  background-color: #333333;
+  color: #ffffffc7;
+  border-radius: 0.5em;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.9375em 0 0.9375em 0;
+  border: 2px solid #ffffff18;
+}
+
+.attribution {
+  margin-top: 1.875em;
+  text-align: center;
   font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.attribution, a {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* Animation for footer */
+
+footer a {
   animation: smoothFill 5s ease-out 0s infinite both;
-  width: 80%;
 }
 
 @keyframes smoothFill {
@@ -174,22 +153,19 @@ footer span {
   }
 }
 
-/* Media query */
+@media( min-width: 480px ) {
 
-@media (min-width: 700px) {
-  #card-container {
-    width: 55%;
-    max-width: 384px;
-    height: 522px;
+  /* Hover transitions */
+
+  .buttons:hover {
+    background-color: #C4F82A;
+    color: #141414;
+    transition-duration: 1.5s;
+    border-radius: 1.75em;
   }
 
-  header,
-  .para {
-    width: 336px;
+  .profile-card {
+    width: 24em;
+    height: 38.188em;
   }
-
-  .para {
-    height: 72px;
-    font-size: 1rem;
-  }
-}
+};
