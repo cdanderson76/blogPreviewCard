@@ -5,9 +5,9 @@ This is my solution for the Frontend Mentor Blog Preview Card:
 
 What are you most proud of, and what would you do differently next time?
 
-There wasn't a lot of changes that I could make to this project...maybe just the color scheme.  However, I was able to go into figma and change the color of the design to make it stand out from other designs.  Not a HUGE deal, but I am proud that I made the change.
+There wasn't a lot of changes that I could make to this project...maybe just the color scheme.  However, I was able to go into figma and change the color of the design to make it stand out from other designs.  Not a HUGE deal, but I am proud that I made that change.
 
-As far as the changes I would make next time, I would be sure to add all of my HTML first, and then style it all out at the end.  I believe I had more trouble than I should have with the footer this go-around, but I was able to make i happen.
+As far as what I would do differently next time, I would be sure to add all of my HTML first, and then style it all out at the end.  I believe I had more trouble than I should have with the footer this go-around, but I was able to make it happen.
 
 What challenges did you encounter, and how did you overcome them?
 
