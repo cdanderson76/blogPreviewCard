@@ -11,10 +11,10 @@ As far as what I would do differently next time, I would be sure to add all of m
 
 What challenges did you encounter, and how did you overcome them?
 
-When converting from pixes to 'ems', some unexpected outcomes in which the font was to little or too small, or even when some of the widths became too small.  This happened within my '.published' and '.foundations' classes.  Here I just stuck with pixels, but made sure I tested the responsiveness to make sure everything was ok.
+When converting from pixes to 'ems', I experienced some unexpected outcomes in which the font was to little or too small, or even when some of the widths became too small.  This happened within my '.published' and '.foundations' classes.  Here I just stuck with pixels, but made sure I tested the responsiveness to make sure everything was ok.
 
-Another problem that I encountered was getting the footer in the appropriate place.  For some reason, whenever I checked the design on my mobile phone, the footer was smashed up against the blog preview card.  No matter what changes I made, the footer wouldn't adjust.  I finally went back and reviewed a previous project that I did, and found that I didn't use 'align-items: center' for my '#canvas' (holds the card).  Once I added that, I was able to adjust the footer to my liking.
+Another problem that I encountered was getting the footer in the appropriate place.  For some reason, whenever I checked the design on my mobile phone, the footer was smashed up against the blog preview card.  No matter what changes I made, the footer wouldn't adjust.  I finally went back and reviewed a previous project that I did, and found that I didn't use 'align-items: center' for my '#canvas' (contains the card).  Once I added that, I was able to adjust the footer to my liking.
 
 What specific areas of your project would you like help with?
 
-I don't think that there is anything that I needed help with, but tips and comments are always useful. I don't think I had too many issues putting this project together, but any feedback to help me improve is always welcome!
+I don't think that there is anything that I needed help with, but tips and comments are always useful. I don't think I had too many issues putting this project together, however.
