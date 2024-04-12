@@ -7,6 +7,8 @@ What are you most proud of, and what would you do differently next time?
 
 There wasn't a lot of changes that I could make to this project...maybe just the color scheme.  However, I was able to go into figma and change the color of the design to make it stand out from other designs.  Not a HUGE deal, but I am proud that I made the change.
 
+As far as the changes I would make next time, I would be sure to add all of my HTML first, and then style it all out at the end.  I believe I had more trouble than I should have with the footer this go-around, but I was able to make i happen.
+
 What challenges did you encounter, and how did you overcome them?
 
 When converting from pixes to 'ems', some unexpected outcomes in which the font was to little or too small, or even when some of the widths became too small.  This happened within my '.published' and '.foundations' classes.  Here I just stuck with pixels, but made sure I tested the responsiveness to make sure everything was ok.
