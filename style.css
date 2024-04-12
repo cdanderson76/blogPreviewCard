@@ -44,6 +44,8 @@ header,
   font-weight: 800;
 }
 
+/* Common min-widths */
+
 .para, header {
   min-width: 17.438em;
 }
