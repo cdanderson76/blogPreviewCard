@@ -10,7 +10,7 @@
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 
 /* Flex containers */
@@ -44,12 +44,15 @@ header,
   font-weight: 800;
 }
 
+.para, header {
+  min-width: 17.438em;
+}
+
 header { 
-  min-width: 279px;
-  height: 200px;
+  height: 12.5em;
   background-image: url('images/blogimage.png');
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 
 #canvas {
@@ -61,18 +64,18 @@ header {
 
 #card-container {
   width: 55%;
-  min-width: 327px;
+  min-width: 20.438em;
   height: 501px;
   border: 1px solid black;
   padding: 1.5em 1.625em 1.5em 1.375em;
   background-color: white;
-  border-radius: 20px;
-  box-shadow: 8px 8px 0px 0px;
-  margin-bottom: -80px;
+  border-radius: 1.25em;
+  box-shadow: 0.5em 0.5em 0px 0px;
+  margin-bottom: -5em;
 }
 
 #learning-button {
-  padding: 4px 12px;
+  padding: 0.25em 0.75em;
   margin: 2em 0 1em 0;
   width: 73px;
   height: 26px;
@@ -101,31 +104,30 @@ header {
 }
 
 .para {
-  min-width: 279px;
-  height: 63px;
+  height: 3.938em;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 21px;
+  line-height: 1.313em;
   color: #7f7f7f;
   margin-bottom: 1.714em;
 }
 
 #avatar {
-  width: 32px;
-  height: 32px;
+  width: 2em;
+  height: 2em;
   margin-right: 0.75em;
 }
 
 #name {
-  width: 98px;
-  height: 21px;
+  width: 6.125em;
+  height: 1.313em;
   margin: -1.875em 0px 0 2.75em;
 }
 
 #name-container {
-  width: 327px;
-  height: 32px;
+  width: 20.438em;
+  height: 2em;
   background-color: #7f7f7f;
 }
 
@@ -182,20 +184,20 @@ footer span {
 
 /* Media query */
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   #card-container {
     width: 55%;
-    max-width: 384px;
-    height: 522px;
+    max-width: 24em;
+    height: 32.625em;
   }
 
   header,
   .para {
-    width: 336px;
+    width: 21em;
   }
 
   .para {
-    height: 72px;
+    height: 4.5em;
     font-size: 1rem;
   }
 }
