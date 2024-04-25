@@ -1,5 +1,7 @@
 This is my solution for the Frontend Mentor Blog Preview Card:
 
+This is an HTML & CSS-only challenge in which I practiced my HTML and CSS fundamentals, (HTML structure and the box model).
+
 ![Screenshot 2024-04-12 010125](https://github.com/cdanderson76/blogPreviewCard/assets/138369806/0445b226-6c5d-4350-8087-6862068ae055)
 
 
