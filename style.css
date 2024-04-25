@@ -136,6 +136,7 @@ header {
 
 footer a {
   font-size: 1.2rem;
+  text-decoration: none;
   animation: smoothFill 5s ease-out 0s infinite both;
   width: 80%;
 }
